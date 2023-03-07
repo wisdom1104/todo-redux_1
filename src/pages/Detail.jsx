@@ -13,7 +13,7 @@ function Detail() {
   console.log(param);
   return (
     <div>
-      <Link to="/">이전으로</Link>
+      <Link to="/">이전으로 돌아가기</Link>
       <div> ID:{param.id}</div>
       <div>{detailTodo.title}</div>
       <div>{detailTodo.content}</div>
